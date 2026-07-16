@@ -787,7 +787,7 @@
             },
             {
               "name": "height",
-              "ioValue": 20
+              "ioValue": 8.5
             }
           ]
         },
@@ -796,18 +796,14 @@
           "x": 0.2885416666666667,
           "y": 0.3080684596577017,
           "uniqueID": "id-190",
-          "name": "ds+mt",
+          "name": "ds/2",
           "ioValues": [
             {
               "name": "ds",
               "ioValue": 17
-            },
-            {
-              "name": "mt",
-              "ioValue": 3
             }
           ],
-          "currentEquation": "ds+mt"
+          "currentEquation": "ds/2"
         },
         {
           "atomType": "Extrude",
@@ -821,7 +817,7 @@
             },
             {
               "name": "height",
-              "ioValue": 23
+              "ioValue": 11.5
             }
           ]
         },
@@ -830,7 +826,7 @@
           "x": 0.24166666666666664,
           "y": 0.7677261613691931,
           "uniqueID": "id-200",
-          "name": "ds+mt*2",
+          "name": "ds/2+mt",
           "ioValues": [
             {
               "name": "ds",
@@ -841,7 +837,7 @@
               "ioValue": 3
             }
           ],
-          "currentEquation": "ds+mt*2"
+          "currentEquation": "ds/2+mt"
         },
         {
           "atomType": "Difference",
@@ -903,7 +899,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 23
+              "ioValue": 11.5
             }
           ]
         }
@@ -948,11 +944,6 @@
           "ap2Name": "mt",
           "ap1ID": "id-144",
           "ap2ID": "id-177"
-        },
-        {
-          "ap2Name": "mt",
-          "ap1ID": "id-144",
-          "ap2ID": "id-190"
         },
         {
           "ap2Name": "mt",
@@ -1289,7 +1280,8 @@
         },
         {
           "name": "Font_Size",
-          "ioValue": 27
+          "ioValue": 27,
+          "currentEquation": "27"
         },
         {
           "name": "Decimals",
