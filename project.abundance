@@ -551,8 +551,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7734374999999999,
-      "y": 0.8997555012224938,
+      "x": 0.8802083333333333,
+      "y": 0.921760391198044,
       "uniqueID": "id-414",
       "ioValues": [
         {
@@ -683,7 +683,7 @@
           "x": 0.1421875,
           "y": 0.410757946210269,
           "uniqueID": "id-153",
-          "name": "ds*3+mt*4+cl",
+          "name": "ds*3+mt*2",
           "ioValues": [
             {
               "name": "ds",
@@ -692,13 +692,9 @@
             {
               "name": "mt",
               "ioValue": 3
-            },
-            {
-              "name": "cl",
-              "ioValue": 1
             }
           ],
-          "currentEquation": "ds*3+mt*4+cl"
+          "currentEquation": "ds*3+mt*2"
         },
         {
           "atomType": "Rectangle",
@@ -712,7 +708,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 64
+              "ioValue": 57
             }
           ]
         },
@@ -735,7 +731,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 70
+              "ioValue": 63
             }
           ]
         },
@@ -766,7 +762,7 @@
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 64
+              "ioValue": 57
             },
             {
               "name": "mt",
@@ -974,16 +970,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-159",
           "ap2ID": "id-186"
-        },
-        {
-          "ap2Name": "cl",
-          "ap1ID": "id-163",
-          "ap2ID": "id-153"
-        },
-        {
-          "ap2Name": "cl",
-          "ap1ID": "id-163",
-          "ap2ID": "id-147"
         },
         {
           "ap2Name": "geometry",
@@ -1795,14 +1781,14 @@
       "ap2ID": "id-402"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-137",
-      "ap2ID": "id-414"
-    },
-    {
       "ap2Name": "Shape",
       "ap1ID": "id-137",
       "ap2ID": "id-633"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-137",
+      "ap2ID": "id-414"
     }
   ],
   "unitsKey": "MM",
