@@ -12,6 +12,10 @@
     {
       "name": "Dice_size",
       "ioValue": 17
+    },
+    {
+      "name": "Bit_diameter",
+      "ioValue": 6
     }
   ],
   "topLevel": true,
@@ -536,7 +540,7 @@
       "x": 0.5458333333333334,
       "y": 0.9242053789731051,
       "uniqueID": "id-408",
-      "name": "(dt*3+mt*4+mt*2)/1",
+      "name": "dt*3+mt*4+bd",
       "ioValues": [
         {
           "name": "dt",
@@ -545,14 +549,18 @@
         {
           "name": "mt",
           "ioValue": 3
+        },
+        {
+          "name": "bd",
+          "ioValue": 6
         }
       ],
-      "currentEquation": "(dt*3+mt*4+mt*2)/1"
+      "currentEquation": "dt*3+mt*4+bd"
     },
     {
       "atomType": "Gcode",
-      "x": 0.8802083333333333,
-      "y": 0.921760391198044,
+      "x": 0.7557291666666667,
+      "y": 0.9339853300733495,
       "uniqueID": "id-414",
       "ioValues": [
         {
@@ -577,8 +585,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Dicebox_box",
-          "currentEquation": "Dicebox_box"
+          "ioValue": "Dicebox_small_lid",
+          "currentEquation": "Dicebox_small_lid"
         }
       ],
       "partName": "Dicebox",
@@ -622,10 +630,6 @@
         {
           "name": "Material_thickness",
           "ioValue": 3
-        },
-        {
-          "name": "Clearance",
-          "ioValue": 1
         }
       ],
       "topLevel": false,
@@ -661,7 +665,7 @@
           "x": 0.13541666666666666,
           "y": 0.22004889975550124,
           "uniqueID": "id-147",
-          "name": "ds*6+mt*8+cl",
+          "name": "ds*6+mt*6",
           "ioValues": [
             {
               "name": "ds",
@@ -670,13 +674,9 @@
             {
               "name": "mt",
               "ioValue": 3
-            },
-            {
-              "name": "cl",
-              "ioValue": 1
             }
           ],
-          "currentEquation": "ds*6+mt*8+cl"
+          "currentEquation": "ds*6+mt*6"
         },
         {
           "atomType": "Equation",
@@ -704,20 +704,13 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 127
+              "ioValue": 120
             },
             {
               "name": "y length",
               "ioValue": 57
             }
           ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0231,
-          "y": 0.30800000000000005,
-          "uniqueID": "id-163",
-          "name": "Clearance"
         },
         {
           "atomType": "Rectangle",
@@ -727,7 +720,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 133
+              "ioValue": 126
             },
             {
               "name": "y length",
@@ -744,7 +737,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 127
+              "ioValue": 120
             },
             {
               "name": "mt",
@@ -1477,6 +1470,50 @@
       "unitsKey": "Unitless",
       "fileTypeVersion": 1,
       "lastReloadedFromGithubAt": 1784185799726
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.8489583333333333,
+      "y": 0.863080684596577,
+      "uniqueID": "id-877",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6,
+          "currentEquation": "6"
+        },
+        {
+          "name": "Passes",
+          "ioValue": 3,
+          "currentEquation": "3"
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1000
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Dicebox_small_lid_complete",
+          "currentEquation": "Dicebox_small_lid_complete"
+        }
+      ],
+      "partName": "Dicebox_small_lid",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0231,
+      "y": 0.30800000000000005,
+      "uniqueID": "id-885",
+      "name": "Bit_diameter"
     }
   ],
   "allConnectors": [
@@ -1766,6 +1803,11 @@
       "ap2ID": "id-2"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-216",
+      "ap2ID": "id-877"
+    },
+    {
       "ap2Name": "yDist",
       "ap1ID": "id-408",
       "ap2ID": "id-402"
@@ -1789,6 +1831,21 @@
       "ap2Name": "geometry",
       "ap1ID": "id-137",
       "ap2ID": "id-414"
+    },
+    {
+      "ap2Name": "bd",
+      "ap1ID": "id-885",
+      "ap2ID": "id-408"
+    },
+    {
+      "ap2Name": "Tool Size",
+      "ap1ID": "id-885",
+      "ap2ID": "id-414"
+    },
+    {
+      "ap2Name": "Tool Size",
+      "ap1ID": "id-885",
+      "ap2ID": "id-382"
     }
   ],
   "unitsKey": "MM",
