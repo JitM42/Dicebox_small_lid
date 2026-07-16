@@ -8,6 +8,7 @@
 
 - **Material_thickness** (number)
 - **Dice_size** (number)
+- **Bit_diameter** (number)
 
 
 
