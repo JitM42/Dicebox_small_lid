@@ -1,0 +1,1819 @@
+{
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Dicebox",
+  "ioValues": [
+    {
+      "name": "Material_thickness",
+      "ioValue": 3
+    },
+    {
+      "name": "Dice_size",
+      "ioValue": 17
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0231,
+      "y": 0.14,
+      "uniqueID": "id-4",
+      "name": "Material_thickness"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0231,
+      "y": 0.22400000000000003,
+      "uniqueID": "id-7",
+      "name": "Dice_size"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.19947916666666665,
+      "y": 0.3985330073349633,
+      "uniqueID": "id-10",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 17
+        },
+        {
+          "name": "y length",
+          "ioValue": 17
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.21875,
+      "y": 0.6185819070904646,
+      "uniqueID": "id-14",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 20
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1328125,
+      "y": 0.6063569682151589,
+      "uniqueID": "id-20",
+      "name": "ds+mt",
+      "ioValues": [
+        {
+          "name": "ds",
+          "ioValue": 17
+        },
+        {
+          "name": "mt",
+          "ioValue": 3
+        }
+      ],
+      "currentEquation": "ds+mt"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.22864583333333333,
+      "y": 0.8190709046454767,
+      "uniqueID": "id-26",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 20
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.2859375,
+      "y": 0.35207823960880197,
+      "uniqueID": "id-32",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3182291666666667,
+      "y": 0.5427872860635696,
+      "uniqueID": "id-38",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 20
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.39583333333333337,
+      "y": 0.5819070904645477,
+      "uniqueID": "id-44",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.35052083333333334,
+      "y": 0.821515892420538,
+      "uniqueID": "id-49",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 20
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.45572916666666663,
+      "y": 0.7310513447432763,
+      "uniqueID": "id-56",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 63
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.39114583333333336,
+      "y": 0.9168704156479217,
+      "uniqueID": "id-62",
+      "name": "ds*3+mt*3+mt",
+      "ioValues": [
+        {
+          "name": "ds",
+          "ioValue": 17
+        },
+        {
+          "name": "mt",
+          "ioValue": 3
+        }
+      ],
+      "currentEquation": "ds*3+mt*3+mt"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5041666666666667,
+      "y": 0.5794621026894865,
+      "uniqueID": "id-68",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.5588541666666667,
+      "y": 0.15403422982885084,
+      "uniqueID": "id-73",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 126
+        },
+        {
+          "name": "y length",
+          "ioValue": 63
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.27760416666666665,
+      "y": 0.11735941320293397,
+      "uniqueID": "id-77",
+      "name": "ds*6+mt*8",
+      "ioValues": [
+        {
+          "name": "ds",
+          "ioValue": 17
+        },
+        {
+          "name": "mt",
+          "ioValue": 3
+        }
+      ],
+      "currentEquation": "ds*6+mt*8"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.33854166666666663,
+      "y": 0.21026894865525675,
+      "uniqueID": "id-83",
+      "name": "ds*3+mt*4",
+      "ioValues": [
+        {
+          "name": "ds",
+          "ioValue": 17
+        },
+        {
+          "name": "mt",
+          "ioValue": 3
+        }
+      ],
+      "currentEquation": "ds*3+mt*4"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4911458333333334,
+      "y": 0.36430317848410754,
+      "uniqueID": "id-95",
+      "name": "-x/2+ds/2+mt",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 126
+        },
+        {
+          "name": "ds",
+          "ioValue": 17
+        },
+        {
+          "name": "mt",
+          "ioValue": 3
+        }
+      ],
+      "currentEquation": "-x/2+ds/2+mt"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5588541666666667,
+      "y": 0.43765281173594134,
+      "uniqueID": "id-99",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -51.5
+        },
+        {
+          "name": "yDist",
+          "ioValue": -20
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.459375,
+      "y": 0.45721271393643037,
+      "uniqueID": "id-107",
+      "name": "-y/2+(ds/2+mt)",
+      "ioValues": [
+        {
+          "name": "y",
+          "ioValue": 63
+        },
+        {
+          "name": "ds",
+          "ioValue": 17
+        },
+        {
+          "name": "mt",
+          "ioValue": 3
+        }
+      ],
+      "currentEquation": "-y/2+(ds/2+mt)"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.6348958333333333,
+      "y": 0.30073349633251834,
+      "uniqueID": "id-113",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 11.5
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.45364583333333336,
+      "y": 0.23716381418092908,
+      "uniqueID": "id-117",
+      "name": "ds/2+mt",
+      "ioValues": [
+        {
+          "name": "ds",
+          "ioValue": 17
+        },
+        {
+          "name": "mt",
+          "ioValue": 3
+        }
+      ],
+      "currentEquation": "ds/2+mt"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5895833333333333,
+      "y": 0.5476772616136919,
+      "uniqueID": "id-123",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 17
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6260416666666667,
+      "y": 0.6723716381418092,
+      "uniqueID": "id-127",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 3
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.6927083333333334,
+      "y": 0.491442542787286,
+      "uniqueID": "id-133",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7885416666666667,
+      "y": 0.7163814180929096,
+      "uniqueID": "id-216",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.8145833333333333,
+      "y": 0.34474327628361856,
+      "uniqueID": "id-382",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6
+        },
+        {
+          "name": "Passes",
+          "ioValue": 2
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1000
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Dicebox_tray",
+          "currentEquation": "Dicebox_tray"
+        }
+      ],
+      "partName": "Dicebox",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.5458333333333334,
+      "y": 0.9242053789731051,
+      "uniqueID": "id-408",
+      "name": "(dt*3+mt*4+mt*2)/1",
+      "ioValues": [
+        {
+          "name": "dt",
+          "ioValue": 17
+        },
+        {
+          "name": "mt",
+          "ioValue": 3
+        }
+      ],
+      "currentEquation": "(dt*3+mt*4+mt*2)/1"
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.7734374999999999,
+      "y": 0.8997555012224938,
+      "uniqueID": "id-414",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6
+        },
+        {
+          "name": "Passes",
+          "ioValue": 4
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Dicebox_box",
+          "currentEquation": "Dicebox_box"
+        }
+      ],
+      "partName": "Dicebox",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.703125,
+      "y": 0.7408312958435208,
+      "uniqueID": "id-402",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 69
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.5833333333333334,
+      "y": 0.8141809290953546,
+      "uniqueID": "id-137",
+      "name": "Molecule",
+      "ioValues": [
+        {
+          "name": "Dice_size",
+          "ioValue": 17
+        },
+        {
+          "name": "Material_thickness",
+          "ioValue": 3
+        },
+        {
+          "name": "Clearance",
+          "ioValue": 1
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-139",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.14,
+          "uniqueID": "id-141",
+          "name": "Dice_size"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.22400000000000003,
+          "uniqueID": "id-144",
+          "name": "Material_thickness"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.13541666666666666,
+          "y": 0.22004889975550124,
+          "uniqueID": "id-147",
+          "name": "ds*6+mt*8+cl",
+          "ioValues": [
+            {
+              "name": "ds",
+              "ioValue": 17
+            },
+            {
+              "name": "mt",
+              "ioValue": 3
+            },
+            {
+              "name": "cl",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "ds*6+mt*8+cl"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.1421875,
+          "y": 0.410757946210269,
+          "uniqueID": "id-153",
+          "name": "ds*3+mt*4+cl",
+          "ioValues": [
+            {
+              "name": "ds",
+              "ioValue": 17
+            },
+            {
+              "name": "mt",
+              "ioValue": 3
+            },
+            {
+              "name": "cl",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "ds*3+mt*4+cl"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.2817708333333333,
+          "y": 0.15892420537897312,
+          "uniqueID": "id-159",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 127
+            },
+            {
+              "name": "y length",
+              "ioValue": 64
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.30800000000000005,
+          "uniqueID": "id-163",
+          "name": "Clearance"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.2833333333333333,
+          "y": 0.5452322738386308,
+          "uniqueID": "id-168",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 133
+            },
+            {
+              "name": "y length",
+              "ioValue": 70
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.21770833333333334,
+          "y": 0.37897310513447435,
+          "uniqueID": "id-172",
+          "name": "x + mt*2",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 127
+            },
+            {
+              "name": "mt",
+              "ioValue": 3
+            }
+          ],
+          "currentEquation": "x + mt*2"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.18854166666666666,
+          "y": 0.5990220048899756,
+          "uniqueID": "id-177",
+          "name": "y + mt*2",
+          "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 64
+            },
+            {
+              "name": "mt",
+              "ioValue": 3
+            }
+          ],
+          "currentEquation": "y + mt*2"
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3645833333333333,
+          "y": 0.24205378973105132,
+          "uniqueID": "id-186",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 20
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2885416666666667,
+          "y": 0.3080684596577017,
+          "uniqueID": "id-190",
+          "name": "ds+mt",
+          "ioValues": [
+            {
+              "name": "ds",
+              "ioValue": 17
+            },
+            {
+              "name": "mt",
+              "ioValue": 3
+            }
+          ],
+          "currentEquation": "ds+mt"
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3453125,
+          "y": 0.5990220048899756,
+          "uniqueID": "id-196",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 23
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.24166666666666664,
+          "y": 0.7677261613691931,
+          "uniqueID": "id-200",
+          "name": "ds+mt*2",
+          "ioValues": [
+            {
+              "name": "ds",
+              "ioValue": 17
+            },
+            {
+              "name": "mt",
+              "ioValue": 3
+            }
+          ],
+          "currentEquation": "ds+mt*2"
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.42552083333333335,
+          "y": 0.4645476772616137,
+          "uniqueID": "id-206",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.5072916666666667,
+          "y": 0.15647921760391198,
+          "uniqueID": "id-210",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 180
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5776041666666667,
+          "y": 0.43276283618581907,
+          "uniqueID": "id-395",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 23
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "ds",
+          "ap1ID": "id-141",
+          "ap2ID": "id-147"
+        },
+        {
+          "ap2Name": "ds",
+          "ap1ID": "id-141",
+          "ap2ID": "id-153"
+        },
+        {
+          "ap2Name": "ds",
+          "ap1ID": "id-141",
+          "ap2ID": "id-190"
+        },
+        {
+          "ap2Name": "ds",
+          "ap1ID": "id-141",
+          "ap2ID": "id-200"
+        },
+        {
+          "ap2Name": "mt",
+          "ap1ID": "id-144",
+          "ap2ID": "id-147"
+        },
+        {
+          "ap2Name": "mt",
+          "ap1ID": "id-144",
+          "ap2ID": "id-153"
+        },
+        {
+          "ap2Name": "mt",
+          "ap1ID": "id-144",
+          "ap2ID": "id-172"
+        },
+        {
+          "ap2Name": "mt",
+          "ap1ID": "id-144",
+          "ap2ID": "id-177"
+        },
+        {
+          "ap2Name": "mt",
+          "ap1ID": "id-144",
+          "ap2ID": "id-190"
+        },
+        {
+          "ap2Name": "mt",
+          "ap1ID": "id-144",
+          "ap2ID": "id-200"
+        },
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-147",
+          "ap2ID": "id-159"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-147",
+          "ap2ID": "id-172"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-153",
+          "ap2ID": "id-159"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-153",
+          "ap2ID": "id-177"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-159",
+          "ap2ID": "id-186"
+        },
+        {
+          "ap2Name": "cl",
+          "ap1ID": "id-163",
+          "ap2ID": "id-153"
+        },
+        {
+          "ap2Name": "cl",
+          "ap1ID": "id-163",
+          "ap2ID": "id-147"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-168",
+          "ap2ID": "id-196"
+        },
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-172",
+          "ap2ID": "id-168"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-177",
+          "ap2ID": "id-168"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-186",
+          "ap2ID": "id-206"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-190",
+          "ap2ID": "id-186"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-196",
+          "ap2ID": "id-206"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-200",
+          "ap2ID": "id-196"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-200",
+          "ap2ID": "id-395"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-206",
+          "ap2ID": "id-210"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-210",
+          "ap2ID": "id-395"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-395",
+          "ap2ID": "id-139"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.753125,
+      "y": 0.2053789731051345,
+      "uniqueID": "id-602",
+      "name": "Label_Bounding_Box",
+      "ioValues": [
+        {
+          "name": "Shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Font_Size",
+          "ioValue": 27
+        },
+        {
+          "name": "Decimals",
+          "ioValue": 1
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-593",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Code",
+          "x": 0.45833333333333337,
+          "y": 0.33704735376044564,
+          "uniqueID": "id-594",
+          "ioValues": [
+            {
+              "name": "input",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "labelColor",
+              "ioValue": "#3A2F28",
+              "currentEquation": "#3A2F28"
+            },
+            {
+              "name": "fontSize",
+              "ioValue": 27
+            },
+            {
+              "name": "decimals",
+              "ioValue": 1
+            }
+          ],
+          "interpreterVersion": 1,
+          "code": "type Vec3 = [number, number, number];\n\ntype LabelPayload = {\n  type: \"Label\";\n  fontSize: number;\n  line: {\n    start: Vec3;\n    end: Vec3;\n    color: string;\n    linewidth: number;\n  };\n  endSegments: {\n    start: { p1: Vec3; p2: Vec3 };\n    end: { p1: Vec3; p2: Vec3 };\n    color: string;\n    linewidth: number;\n  };\n  text: {\n    value: string;\n    color: string;\n    position: Vec3;\n    scale: Vec3;\n    font: string;\n    linewidth: number;\n  };\n  movement: { x: number; y: number; z: number };\n  rotation: { x: number; y: number; z: number };\n};\n\nfunction run(\n  input: Assembly,\n  labelColor: string = \"#2C241F\",\n  fontSize: number = 1,\n  decimals: number = 2\n) {\n  if (!input) {\n    throw new Error(\"Connect a geometry Assembly to the input.\");\n  }\n\n  const leaves = collectLeaves(input);\n  if (leaves.length === 0) {\n    throw new Error(\"Input assembly has no leaf geometry.\");\n  }\n\n  let minX = Number.POSITIVE_INFINITY;\n  let minY = Number.POSITIVE_INFINITY;\n  let minZ = Number.POSITIVE_INFINITY;\n  let maxX = Number.NEGATIVE_INFINITY;\n  let maxY = Number.NEGATIVE_INFINITY;\n  let maxZ = Number.NEGATIVE_INFINITY;\n\n  let all2D = true;\n  let foundBounds = false;\n\n  for (const leaf of leaves) {\n    const geom: any = (leaf as any).geometry;\n    const bbox = geom && geom.boundingBox;\n    const bounds = bbox && bbox.bounds;\n\n    if (!bounds || !Array.isArray(bounds) || bounds.length < 2) {\n      continue;\n    }\n\n    const b0: any[] = bounds[0];\n    const b1: any[] = bounds[1];\n    if (!Array.isArray(b0) || !Array.isArray(b1) || b0.length < 2 || b1.length < 2) {\n      continue;\n    }\n\n    const lx = Number(b0[0]);\n    const ly = Number(b0[1]);\n    const lz = Number(b0.length > 2 ? b0[2] : 0);\n\n    const ux = Number(b1[0]);\n    const uy = Number(b1[1]);\n    const uz = Number(b1.length > 2 ? b1[2] : 0);\n\n    minX = Math.min(minX, lx);\n    minY = Math.min(minY, ly);\n    minZ = Math.min(minZ, lz);\n\n    maxX = Math.max(maxX, ux);\n    maxY = Math.max(maxY, uy);\n    maxZ = Math.max(maxZ, uz);\n\n    const leafIs2D =\n      typeof (leaf as any).is2D === \"function\" ? (leaf as any).is2D() : b0.length < 3;\n    if (!leafIs2D) all2D = false;\n\n    foundBounds = true;\n  }\n\n  if (!foundBounds) {\n    throw new Error(\"Could not read bounding boxes from the input geometry.\");\n  }\n\n  const dx = Math.max(0, maxX - minX);\n  const dy = Math.max(0, maxY - minY);\n  const dz = Math.max(0, maxZ - minZ);\n\n  const span = Math.max(dx, dy, dz, 1e-6);\n  const margin = span * 0.08;\n\n  // Uniform text scale for all axis labels so font appears consistent.\n  const textScaleX = span * 0.12 * fontSize;\n  const textScaleY = span * 0.06 * fontSize;\n\n  const labels: LabelPayload[] = [];\n\n  // X dimension (offset below)\n  labels.push(\n    makeLabel(\n      \"X: \" + fmt(dx, decimals),\n      [minX, minY - margin, minZ],\n      [maxX, minY - margin, minZ],\n      labelColor,\n      fontSize,\n      textScaleX,\n      textScaleY\n    )\n  );\n\n  // Y dimension (offset left)\n  labels.push(\n    makeLabel(\n      \"Y: \" + fmt(dy, decimals),\n      [minX - margin, minY, minZ],\n      [minX - margin, maxY, minZ],\n      labelColor,\n      fontSize,\n      textScaleX,\n      textScaleY\n    )\n  );\n\n  // Z dimension only for non-2D input\n  if (!all2D) {\n    labels.push(\n      makeLabel(\n        \"Z: \" + fmt(dz, decimals),\n        [maxX + margin, maxY + margin, minZ],\n        [maxX + margin, maxY + margin, maxZ],\n        labelColor,\n        fontSize,\n        textScaleX,\n        textScaleY\n      )\n    );\n  }\n\n  // Preserve source geometry and metadata, then append generated labels.\n  const out: any = new Assembly(input as any);\n  const prev = Array.isArray(out.nonReplicadSerialized)\n    ? out.nonReplicadSerialized\n    : out.nonReplicadSerialized\n      ? [out.nonReplicadSerialized]\n      : [];\n  out.nonReplicadSerialized = prev.concat(labels);\n\n  return out;\n}\n\nfunction collectLeaves(node: Assembly): Assembly[] {\n  if ((node as any).isLeaf && (node as any).isLeaf()) {\n    return [node];\n  }\n  const children: any[] = Array.isArray((node as any).geometry)\n    ? ((node as any).geometry as any[])\n    : [];\n  const out: Assembly[] = [];\n  for (const child of children) {\n    out.push(...collectLeaves(child as Assembly));\n  }\n  return out;\n}\n\nfunction fmt(v: number, decimals: number): string {\n  const d = Math.max(0, Math.min(6, Math.floor(decimals)));\n  const p = Math.pow(10, d);\n  const rounded = Math.round(v * p) / p;\n  return String(rounded);\n}\n\nfunction makeLabel(\n  text: string,\n  start: Vec3,\n  end: Vec3,\n  color: string,\n  fontSize: number,\n  textScaleX: number,\n  textScaleY: number\n): LabelPayload {\n  const lineDir = normalize(sub(end, start));\n\n  const ref: Vec3 = Math.abs(lineDir[2]) < 0.9 ? [0, 0, 1] : [1, 0, 0];\n  const segDir = normalize(cross(lineDir, ref));\n\n  let perp: Vec3 = normalize([-lineDir[1], lineDir[0], 0]);\n  if (length(perp) < 1e-9) perp = [0, 1, 0];\n\n  const lineLength = Math.max(length(sub(end, start)), 1e-6);\n  const endSegmentLength = Math.max(lineLength * 0.05, lineLength * 0.02);\n\n  const startP1 = sub(start, mul(segDir, endSegmentLength / 2));\n  const startP2 = add(start, mul(segDir, endSegmentLength / 2));\n  const endP1 = sub(end, mul(segDir, endSegmentLength / 2));\n  const endP2 = add(end, mul(segDir, endSegmentLength / 2));\n\n  const mid = mul(add(start, end), 0.5);\n  const offset = mul(perp, 2.5);\n  const textPos = add(mid, offset);\n\n  return {\n    type: \"Label\",\n    fontSize,\n    line: {\n      start,\n      end,\n      color,\n      linewidth: 5\n    },\n    endSegments: {\n      start: { p1: startP1, p2: startP2 },\n      end: { p1: endP1, p2: endP2 },\n      color,\n      linewidth: 5\n    },\n    text: {\n      value: text,\n      color,\n      position: textPos,\n      scale: [textScaleX, textScaleY, 1],\n      font: \"Bold \" + String(fontSize) + \"px Arial\",\n      linewidth: fontSize * 0.4\n    },\n    movement: { x: 0, y: 0, z: 0 },\n    rotation: { x: 0, y: 0, z: 0 }\n  };\n}\n\nfunction add(a: Vec3, b: Vec3): Vec3 {\n  return [a[0] + b[0], a[1] + b[1], a[2] + b[2]];\n}\nfunction sub(a: Vec3, b: Vec3): Vec3 {\n  return [a[0] - b[0], a[1] - b[1], a[2] - b[2]];\n}\nfunction mul(a: Vec3, s: number): Vec3 {\n  return [a[0] * s, a[1] * s, a[2] * s];\n}\nfunction cross(a: Vec3, b: Vec3): Vec3 {\n  return [\n    a[1] * b[2] - a[2] * b[1],\n    a[2] * b[0] - a[0] * b[2],\n    a[0] * b[1] - a[1] * b[0]\n  ];\n}\nfunction length(a: Vec3): number {\n  return Math.sqrt(a[0] * a[0] + a[1] * a[1] + a[2] * a[2]);\n}\nfunction normalize(a: Vec3): Vec3 {\n  const len = length(a);\n  if (len < 1e-12) return [0, 0, 0];\n  return [a[0] / len, a[1] / len, a[2] / len];\n}",
+          "compiledCode": "\"use strict\";\nfunction run(input, labelColor = \"#2C241F\", fontSize = 1, decimals = 2) {\n    if (!input) {\n        throw new Error(\"Connect a geometry Assembly to the input.\");\n    }\n    const leaves = collectLeaves(input);\n    if (leaves.length === 0) {\n        throw new Error(\"Input assembly has no leaf geometry.\");\n    }\n    let minX = Number.POSITIVE_INFINITY;\n    let minY = Number.POSITIVE_INFINITY;\n    let minZ = Number.POSITIVE_INFINITY;\n    let maxX = Number.NEGATIVE_INFINITY;\n    let maxY = Number.NEGATIVE_INFINITY;\n    let maxZ = Number.NEGATIVE_INFINITY;\n    let all2D = true;\n    let foundBounds = false;\n    for (const leaf of leaves) {\n        const geom = leaf.geometry;\n        const bbox = geom && geom.boundingBox;\n        const bounds = bbox && bbox.bounds;\n        if (!bounds || !Array.isArray(bounds) || bounds.length < 2) {\n            continue;\n        }\n        const b0 = bounds[0];\n        const b1 = bounds[1];\n        if (!Array.isArray(b0) || !Array.isArray(b1) || b0.length < 2 || b1.length < 2) {\n            continue;\n        }\n        const lx = Number(b0[0]);\n        const ly = Number(b0[1]);\n        const lz = Number(b0.length > 2 ? b0[2] : 0);\n        const ux = Number(b1[0]);\n        const uy = Number(b1[1]);\n        const uz = Number(b1.length > 2 ? b1[2] : 0);\n        minX = Math.min(minX, lx);\n        minY = Math.min(minY, ly);\n        minZ = Math.min(minZ, lz);\n        maxX = Math.max(maxX, ux);\n        maxY = Math.max(maxY, uy);\n        maxZ = Math.max(maxZ, uz);\n        const leafIs2D = typeof leaf.is2D === \"function\" ? leaf.is2D() : b0.length < 3;\n        if (!leafIs2D)\n            all2D = false;\n        foundBounds = true;\n    }\n    if (!foundBounds) {\n        throw new Error(\"Could not read bounding boxes from the input geometry.\");\n    }\n    const dx = Math.max(0, maxX - minX);\n    const dy = Math.max(0, maxY - minY);\n    const dz = Math.max(0, maxZ - minZ);\n    const span = Math.max(dx, dy, dz, 1e-6);\n    const margin = span * 0.08;\n    // Uniform text scale for all axis labels so font appears consistent.\n    const textScaleX = span * 0.12 * fontSize;\n    const textScaleY = span * 0.06 * fontSize;\n    const labels = [];\n    // X dimension (offset below)\n    labels.push(makeLabel(\"X: \" + fmt(dx, decimals), [minX, minY - margin, minZ], [maxX, minY - margin, minZ], labelColor, fontSize, textScaleX, textScaleY));\n    // Y dimension (offset left)\n    labels.push(makeLabel(\"Y: \" + fmt(dy, decimals), [minX - margin, minY, minZ], [minX - margin, maxY, minZ], labelColor, fontSize, textScaleX, textScaleY));\n    // Z dimension only for non-2D input\n    if (!all2D) {\n        labels.push(makeLabel(\"Z: \" + fmt(dz, decimals), [maxX + margin, maxY + margin, minZ], [maxX + margin, maxY + margin, maxZ], labelColor, fontSize, textScaleX, textScaleY));\n    }\n    // Preserve source geometry and metadata, then append generated labels.\n    const out = new Assembly(input);\n    const prev = Array.isArray(out.nonReplicadSerialized)\n        ? out.nonReplicadSerialized\n        : out.nonReplicadSerialized\n            ? [out.nonReplicadSerialized]\n            : [];\n    out.nonReplicadSerialized = prev.concat(labels);\n    return out;\n}\nfunction collectLeaves(node) {\n    if (node.isLeaf && node.isLeaf()) {\n        return [node];\n    }\n    const children = Array.isArray(node.geometry)\n        ? node.geometry\n        : [];\n    const out = [];\n    for (const child of children) {\n        out.push(...collectLeaves(child));\n    }\n    return out;\n}\nfunction fmt(v, decimals) {\n    const d = Math.max(0, Math.min(6, Math.floor(decimals)));\n    const p = Math.pow(10, d);\n    const rounded = Math.round(v * p) / p;\n    return String(rounded);\n}\nfunction makeLabel(text, start, end, color, fontSize, textScaleX, textScaleY) {\n    const lineDir = normalize(sub(end, start));\n    const ref = Math.abs(lineDir[2]) < 0.9 ? [0, 0, 1] : [1, 0, 0];\n    const segDir = normalize(cross(lineDir, ref));\n    let perp = normalize([-lineDir[1], lineDir[0], 0]);\n    if (length(perp) < 1e-9)\n        perp = [0, 1, 0];\n    const lineLength = Math.max(length(sub(end, start)), 1e-6);\n    const endSegmentLength = Math.max(lineLength * 0.05, lineLength * 0.02);\n    const startP1 = sub(start, mul(segDir, endSegmentLength / 2));\n    const startP2 = add(start, mul(segDir, endSegmentLength / 2));\n    const endP1 = sub(end, mul(segDir, endSegmentLength / 2));\n    const endP2 = add(end, mul(segDir, endSegmentLength / 2));\n    const mid = mul(add(start, end), 0.5);\n    const offset = mul(perp, 2.5);\n    const textPos = add(mid, offset);\n    return {\n        type: \"Label\",\n        fontSize,\n        line: {\n            start,\n            end,\n            color,\n            linewidth: 5\n        },\n        endSegments: {\n            start: { p1: startP1, p2: startP2 },\n            end: { p1: endP1, p2: endP2 },\n            color,\n            linewidth: 5\n        },\n        text: {\n            value: text,\n            color,\n            position: textPos,\n            scale: [textScaleX, textScaleY, 1],\n            font: \"Bold \" + String(fontSize) + \"px Arial\",\n            linewidth: fontSize * 0.4\n        },\n        movement: { x: 0, y: 0, z: 0 },\n        rotation: { x: 0, y: 0, z: 0 }\n    };\n}\nfunction add(a, b) {\n    return [a[0] + b[0], a[1] + b[1], a[2] + b[2]];\n}\nfunction sub(a, b) {\n    return [a[0] - b[0], a[1] - b[1], a[2] - b[2]];\n}\nfunction mul(a, s) {\n    return [a[0] * s, a[1] * s, a[2] * s];\n}\nfunction cross(a, b) {\n    return [\n        a[1] * b[2] - a[2] * b[1],\n        a[2] * b[0] - a[0] * b[2],\n        a[0] * b[1] - a[1] * b[0]\n    ];\n}\nfunction length(a) {\n    return Math.sqrt(a[0] * a[0] + a[1] * a[1] + a[2] * a[2]);\n}\nfunction normalize(a) {\n    const len = length(a);\n    if (len < 1e-12)\n        return [0, 0, 0];\n    return [a[0] / len, a[1] / len, a[2] / len];\n}\n"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.14219576719576718,
+          "y": 0.8523676880222841,
+          "uniqueID": "id-595",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2804232804232804,
+          "y": 0.8440111420612814,
+          "uniqueID": "id-596",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 50
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3697089947089947,
+          "y": 0.713091922005571,
+          "uniqueID": "id-597",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.576058201058201,
+          "y": 0.6991643454038997,
+          "uniqueID": "id-598",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 10
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 30
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.14,
+          "uniqueID": "id-599",
+          "name": "Shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.22400000000000003,
+          "uniqueID": "id-600",
+          "name": "Font_Size"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.30800000000000005,
+          "uniqueID": "id-601",
+          "name": "Decimals"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-594",
+          "ap2ID": "id-593"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-595",
+          "ap2ID": "id-596"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-596",
+          "ap2ID": "id-597"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-597",
+          "ap2ID": "id-598"
+        },
+        {
+          "ap2Name": "input",
+          "ap1ID": "id-599",
+          "ap2ID": "id-594"
+        },
+        {
+          "ap2Name": "fontSize",
+          "ap1ID": "id-600",
+          "ap2ID": "id-594"
+        },
+        {
+          "ap2Name": "decimals",
+          "ap1ID": "id-601",
+          "ap2ID": "id-594"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-07-16T02:23:38.960Z",
+        "privateRepo": false,
+        "repoName": "Label_Bounding_Box",
+        "dateCreated": "2026-07-15T16:37:50Z",
+        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Label_Bounding_Box/master/README.md?sanitize=true",
+        "yyyy": 2026,
+        "topMoleculeID": "id-872",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Label_Bounding_Box",
+        "topics": [],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739812",
+        "ranking": 0,
+        "searchField": "label_bounding_box barboursmith adds labels to show an input geometrie's bounding box ",
+        "owner": "BarbourSmith",
+        "description": "Adds labels to show an input geometrie's bounding Box",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Label_Bounding_Box/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Label_Bounding_Box/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1784185799726
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.6541666666666667,
+      "y": 0.9339853300733495,
+      "uniqueID": "id-633",
+      "name": "Label_Bounding_Box",
+      "ioValues": [
+        {
+          "name": "Shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Font_Size",
+          "ioValue": 27
+        },
+        {
+          "name": "Decimals",
+          "ioValue": 1
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-634",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Code",
+          "x": 0.45833333333333337,
+          "y": 0.33704735376044564,
+          "uniqueID": "id-635",
+          "ioValues": [
+            {
+              "name": "input",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "labelColor",
+              "ioValue": "#3A2F28",
+              "currentEquation": "#3A2F28"
+            },
+            {
+              "name": "fontSize",
+              "ioValue": 27
+            },
+            {
+              "name": "decimals",
+              "ioValue": 1
+            }
+          ],
+          "interpreterVersion": 1,
+          "code": "type Vec3 = [number, number, number];\n\ntype LabelPayload = {\n  type: \"Label\";\n  fontSize: number;\n  line: {\n    start: Vec3;\n    end: Vec3;\n    color: string;\n    linewidth: number;\n  };\n  endSegments: {\n    start: { p1: Vec3; p2: Vec3 };\n    end: { p1: Vec3; p2: Vec3 };\n    color: string;\n    linewidth: number;\n  };\n  text: {\n    value: string;\n    color: string;\n    position: Vec3;\n    scale: Vec3;\n    font: string;\n    linewidth: number;\n  };\n  movement: { x: number; y: number; z: number };\n  rotation: { x: number; y: number; z: number };\n};\n\nfunction run(\n  input: Assembly,\n  labelColor: string = \"#2C241F\",\n  fontSize: number = 1,\n  decimals: number = 2\n) {\n  if (!input) {\n    throw new Error(\"Connect a geometry Assembly to the input.\");\n  }\n\n  const leaves = collectLeaves(input);\n  if (leaves.length === 0) {\n    throw new Error(\"Input assembly has no leaf geometry.\");\n  }\n\n  let minX = Number.POSITIVE_INFINITY;\n  let minY = Number.POSITIVE_INFINITY;\n  let minZ = Number.POSITIVE_INFINITY;\n  let maxX = Number.NEGATIVE_INFINITY;\n  let maxY = Number.NEGATIVE_INFINITY;\n  let maxZ = Number.NEGATIVE_INFINITY;\n\n  let all2D = true;\n  let foundBounds = false;\n\n  for (const leaf of leaves) {\n    const geom: any = (leaf as any).geometry;\n    const bbox = geom && geom.boundingBox;\n    const bounds = bbox && bbox.bounds;\n\n    if (!bounds || !Array.isArray(bounds) || bounds.length < 2) {\n      continue;\n    }\n\n    const b0: any[] = bounds[0];\n    const b1: any[] = bounds[1];\n    if (!Array.isArray(b0) || !Array.isArray(b1) || b0.length < 2 || b1.length < 2) {\n      continue;\n    }\n\n    const lx = Number(b0[0]);\n    const ly = Number(b0[1]);\n    const lz = Number(b0.length > 2 ? b0[2] : 0);\n\n    const ux = Number(b1[0]);\n    const uy = Number(b1[1]);\n    const uz = Number(b1.length > 2 ? b1[2] : 0);\n\n    minX = Math.min(minX, lx);\n    minY = Math.min(minY, ly);\n    minZ = Math.min(minZ, lz);\n\n    maxX = Math.max(maxX, ux);\n    maxY = Math.max(maxY, uy);\n    maxZ = Math.max(maxZ, uz);\n\n    const leafIs2D =\n      typeof (leaf as any).is2D === \"function\" ? (leaf as any).is2D() : b0.length < 3;\n    if (!leafIs2D) all2D = false;\n\n    foundBounds = true;\n  }\n\n  if (!foundBounds) {\n    throw new Error(\"Could not read bounding boxes from the input geometry.\");\n  }\n\n  const dx = Math.max(0, maxX - minX);\n  const dy = Math.max(0, maxY - minY);\n  const dz = Math.max(0, maxZ - minZ);\n\n  const span = Math.max(dx, dy, dz, 1e-6);\n  const margin = span * 0.08;\n\n  // Uniform text scale for all axis labels so font appears consistent.\n  const textScaleX = span * 0.12 * fontSize;\n  const textScaleY = span * 0.06 * fontSize;\n\n  const labels: LabelPayload[] = [];\n\n  // X dimension (offset below)\n  labels.push(\n    makeLabel(\n      \"X: \" + fmt(dx, decimals),\n      [minX, minY - margin, minZ],\n      [maxX, minY - margin, minZ],\n      labelColor,\n      fontSize,\n      textScaleX,\n      textScaleY\n    )\n  );\n\n  // Y dimension (offset left)\n  labels.push(\n    makeLabel(\n      \"Y: \" + fmt(dy, decimals),\n      [minX - margin, minY, minZ],\n      [minX - margin, maxY, minZ],\n      labelColor,\n      fontSize,\n      textScaleX,\n      textScaleY\n    )\n  );\n\n  // Z dimension only for non-2D input\n  if (!all2D) {\n    labels.push(\n      makeLabel(\n        \"Z: \" + fmt(dz, decimals),\n        [maxX + margin, maxY + margin, minZ],\n        [maxX + margin, maxY + margin, maxZ],\n        labelColor,\n        fontSize,\n        textScaleX,\n        textScaleY\n      )\n    );\n  }\n\n  // Preserve source geometry and metadata, then append generated labels.\n  const out: any = new Assembly(input as any);\n  const prev = Array.isArray(out.nonReplicadSerialized)\n    ? out.nonReplicadSerialized\n    : out.nonReplicadSerialized\n      ? [out.nonReplicadSerialized]\n      : [];\n  out.nonReplicadSerialized = prev.concat(labels);\n\n  return out;\n}\n\nfunction collectLeaves(node: Assembly): Assembly[] {\n  if ((node as any).isLeaf && (node as any).isLeaf()) {\n    return [node];\n  }\n  const children: any[] = Array.isArray((node as any).geometry)\n    ? ((node as any).geometry as any[])\n    : [];\n  const out: Assembly[] = [];\n  for (const child of children) {\n    out.push(...collectLeaves(child as Assembly));\n  }\n  return out;\n}\n\nfunction fmt(v: number, decimals: number): string {\n  const d = Math.max(0, Math.min(6, Math.floor(decimals)));\n  const p = Math.pow(10, d);\n  const rounded = Math.round(v * p) / p;\n  return String(rounded);\n}\n\nfunction makeLabel(\n  text: string,\n  start: Vec3,\n  end: Vec3,\n  color: string,\n  fontSize: number,\n  textScaleX: number,\n  textScaleY: number\n): LabelPayload {\n  const lineDir = normalize(sub(end, start));\n\n  const ref: Vec3 = Math.abs(lineDir[2]) < 0.9 ? [0, 0, 1] : [1, 0, 0];\n  const segDir = normalize(cross(lineDir, ref));\n\n  let perp: Vec3 = normalize([-lineDir[1], lineDir[0], 0]);\n  if (length(perp) < 1e-9) perp = [0, 1, 0];\n\n  const lineLength = Math.max(length(sub(end, start)), 1e-6);\n  const endSegmentLength = Math.max(lineLength * 0.05, lineLength * 0.02);\n\n  const startP1 = sub(start, mul(segDir, endSegmentLength / 2));\n  const startP2 = add(start, mul(segDir, endSegmentLength / 2));\n  const endP1 = sub(end, mul(segDir, endSegmentLength / 2));\n  const endP2 = add(end, mul(segDir, endSegmentLength / 2));\n\n  const mid = mul(add(start, end), 0.5);\n  const offset = mul(perp, 2.5);\n  const textPos = add(mid, offset);\n\n  return {\n    type: \"Label\",\n    fontSize,\n    line: {\n      start,\n      end,\n      color,\n      linewidth: 5\n    },\n    endSegments: {\n      start: { p1: startP1, p2: startP2 },\n      end: { p1: endP1, p2: endP2 },\n      color,\n      linewidth: 5\n    },\n    text: {\n      value: text,\n      color,\n      position: textPos,\n      scale: [textScaleX, textScaleY, 1],\n      font: \"Bold \" + String(fontSize) + \"px Arial\",\n      linewidth: fontSize * 0.4\n    },\n    movement: { x: 0, y: 0, z: 0 },\n    rotation: { x: 0, y: 0, z: 0 }\n  };\n}\n\nfunction add(a: Vec3, b: Vec3): Vec3 {\n  return [a[0] + b[0], a[1] + b[1], a[2] + b[2]];\n}\nfunction sub(a: Vec3, b: Vec3): Vec3 {\n  return [a[0] - b[0], a[1] - b[1], a[2] - b[2]];\n}\nfunction mul(a: Vec3, s: number): Vec3 {\n  return [a[0] * s, a[1] * s, a[2] * s];\n}\nfunction cross(a: Vec3, b: Vec3): Vec3 {\n  return [\n    a[1] * b[2] - a[2] * b[1],\n    a[2] * b[0] - a[0] * b[2],\n    a[0] * b[1] - a[1] * b[0]\n  ];\n}\nfunction length(a: Vec3): number {\n  return Math.sqrt(a[0] * a[0] + a[1] * a[1] + a[2] * a[2]);\n}\nfunction normalize(a: Vec3): Vec3 {\n  const len = length(a);\n  if (len < 1e-12) return [0, 0, 0];\n  return [a[0] / len, a[1] / len, a[2] / len];\n}",
+          "compiledCode": "\"use strict\";\nfunction run(input, labelColor = \"#2C241F\", fontSize = 1, decimals = 2) {\n    if (!input) {\n        throw new Error(\"Connect a geometry Assembly to the input.\");\n    }\n    const leaves = collectLeaves(input);\n    if (leaves.length === 0) {\n        throw new Error(\"Input assembly has no leaf geometry.\");\n    }\n    let minX = Number.POSITIVE_INFINITY;\n    let minY = Number.POSITIVE_INFINITY;\n    let minZ = Number.POSITIVE_INFINITY;\n    let maxX = Number.NEGATIVE_INFINITY;\n    let maxY = Number.NEGATIVE_INFINITY;\n    let maxZ = Number.NEGATIVE_INFINITY;\n    let all2D = true;\n    let foundBounds = false;\n    for (const leaf of leaves) {\n        const geom = leaf.geometry;\n        const bbox = geom && geom.boundingBox;\n        const bounds = bbox && bbox.bounds;\n        if (!bounds || !Array.isArray(bounds) || bounds.length < 2) {\n            continue;\n        }\n        const b0 = bounds[0];\n        const b1 = bounds[1];\n        if (!Array.isArray(b0) || !Array.isArray(b1) || b0.length < 2 || b1.length < 2) {\n            continue;\n        }\n        const lx = Number(b0[0]);\n        const ly = Number(b0[1]);\n        const lz = Number(b0.length > 2 ? b0[2] : 0);\n        const ux = Number(b1[0]);\n        const uy = Number(b1[1]);\n        const uz = Number(b1.length > 2 ? b1[2] : 0);\n        minX = Math.min(minX, lx);\n        minY = Math.min(minY, ly);\n        minZ = Math.min(minZ, lz);\n        maxX = Math.max(maxX, ux);\n        maxY = Math.max(maxY, uy);\n        maxZ = Math.max(maxZ, uz);\n        const leafIs2D = typeof leaf.is2D === \"function\" ? leaf.is2D() : b0.length < 3;\n        if (!leafIs2D)\n            all2D = false;\n        foundBounds = true;\n    }\n    if (!foundBounds) {\n        throw new Error(\"Could not read bounding boxes from the input geometry.\");\n    }\n    const dx = Math.max(0, maxX - minX);\n    const dy = Math.max(0, maxY - minY);\n    const dz = Math.max(0, maxZ - minZ);\n    const span = Math.max(dx, dy, dz, 1e-6);\n    const margin = span * 0.08;\n    // Uniform text scale for all axis labels so font appears consistent.\n    const textScaleX = span * 0.12 * fontSize;\n    const textScaleY = span * 0.06 * fontSize;\n    const labels = [];\n    // X dimension (offset below)\n    labels.push(makeLabel(\"X: \" + fmt(dx, decimals), [minX, minY - margin, minZ], [maxX, minY - margin, minZ], labelColor, fontSize, textScaleX, textScaleY));\n    // Y dimension (offset left)\n    labels.push(makeLabel(\"Y: \" + fmt(dy, decimals), [minX - margin, minY, minZ], [minX - margin, maxY, minZ], labelColor, fontSize, textScaleX, textScaleY));\n    // Z dimension only for non-2D input\n    if (!all2D) {\n        labels.push(makeLabel(\"Z: \" + fmt(dz, decimals), [maxX + margin, maxY + margin, minZ], [maxX + margin, maxY + margin, maxZ], labelColor, fontSize, textScaleX, textScaleY));\n    }\n    // Preserve source geometry and metadata, then append generated labels.\n    const out = new Assembly(input);\n    const prev = Array.isArray(out.nonReplicadSerialized)\n        ? out.nonReplicadSerialized\n        : out.nonReplicadSerialized\n            ? [out.nonReplicadSerialized]\n            : [];\n    out.nonReplicadSerialized = prev.concat(labels);\n    return out;\n}\nfunction collectLeaves(node) {\n    if (node.isLeaf && node.isLeaf()) {\n        return [node];\n    }\n    const children = Array.isArray(node.geometry)\n        ? node.geometry\n        : [];\n    const out = [];\n    for (const child of children) {\n        out.push(...collectLeaves(child));\n    }\n    return out;\n}\nfunction fmt(v, decimals) {\n    const d = Math.max(0, Math.min(6, Math.floor(decimals)));\n    const p = Math.pow(10, d);\n    const rounded = Math.round(v * p) / p;\n    return String(rounded);\n}\nfunction makeLabel(text, start, end, color, fontSize, textScaleX, textScaleY) {\n    const lineDir = normalize(sub(end, start));\n    const ref = Math.abs(lineDir[2]) < 0.9 ? [0, 0, 1] : [1, 0, 0];\n    const segDir = normalize(cross(lineDir, ref));\n    let perp = normalize([-lineDir[1], lineDir[0], 0]);\n    if (length(perp) < 1e-9)\n        perp = [0, 1, 0];\n    const lineLength = Math.max(length(sub(end, start)), 1e-6);\n    const endSegmentLength = Math.max(lineLength * 0.05, lineLength * 0.02);\n    const startP1 = sub(start, mul(segDir, endSegmentLength / 2));\n    const startP2 = add(start, mul(segDir, endSegmentLength / 2));\n    const endP1 = sub(end, mul(segDir, endSegmentLength / 2));\n    const endP2 = add(end, mul(segDir, endSegmentLength / 2));\n    const mid = mul(add(start, end), 0.5);\n    const offset = mul(perp, 2.5);\n    const textPos = add(mid, offset);\n    return {\n        type: \"Label\",\n        fontSize,\n        line: {\n            start,\n            end,\n            color,\n            linewidth: 5\n        },\n        endSegments: {\n            start: { p1: startP1, p2: startP2 },\n            end: { p1: endP1, p2: endP2 },\n            color,\n            linewidth: 5\n        },\n        text: {\n            value: text,\n            color,\n            position: textPos,\n            scale: [textScaleX, textScaleY, 1],\n            font: \"Bold \" + String(fontSize) + \"px Arial\",\n            linewidth: fontSize * 0.4\n        },\n        movement: { x: 0, y: 0, z: 0 },\n        rotation: { x: 0, y: 0, z: 0 }\n    };\n}\nfunction add(a, b) {\n    return [a[0] + b[0], a[1] + b[1], a[2] + b[2]];\n}\nfunction sub(a, b) {\n    return [a[0] - b[0], a[1] - b[1], a[2] - b[2]];\n}\nfunction mul(a, s) {\n    return [a[0] * s, a[1] * s, a[2] * s];\n}\nfunction cross(a, b) {\n    return [\n        a[1] * b[2] - a[2] * b[1],\n        a[2] * b[0] - a[0] * b[2],\n        a[0] * b[1] - a[1] * b[0]\n    ];\n}\nfunction length(a) {\n    return Math.sqrt(a[0] * a[0] + a[1] * a[1] + a[2] * a[2]);\n}\nfunction normalize(a) {\n    const len = length(a);\n    if (len < 1e-12)\n        return [0, 0, 0];\n    return [a[0] / len, a[1] / len, a[2] / len];\n}\n"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.14219576719576718,
+          "y": 0.8523676880222841,
+          "uniqueID": "id-636",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2804232804232804,
+          "y": 0.8440111420612814,
+          "uniqueID": "id-637",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 50
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3697089947089947,
+          "y": 0.713091922005571,
+          "uniqueID": "id-638",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.576058201058201,
+          "y": 0.6991643454038997,
+          "uniqueID": "id-639",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 10
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 30
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.14,
+          "uniqueID": "id-640",
+          "name": "Shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.22400000000000003,
+          "uniqueID": "id-641",
+          "name": "Font_Size"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.30800000000000005,
+          "uniqueID": "id-642",
+          "name": "Decimals"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-635",
+          "ap2ID": "id-634"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-636",
+          "ap2ID": "id-637"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-637",
+          "ap2ID": "id-638"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-638",
+          "ap2ID": "id-639"
+        },
+        {
+          "ap2Name": "input",
+          "ap1ID": "id-640",
+          "ap2ID": "id-635"
+        },
+        {
+          "ap2Name": "fontSize",
+          "ap1ID": "id-641",
+          "ap2ID": "id-635"
+        },
+        {
+          "ap2Name": "decimals",
+          "ap1ID": "id-642",
+          "ap2ID": "id-635"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-07-16T02:23:38.960Z",
+        "privateRepo": false,
+        "repoName": "Label_Bounding_Box",
+        "dateCreated": "2026-07-15T16:37:50Z",
+        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Label_Bounding_Box/master/README.md?sanitize=true",
+        "yyyy": 2026,
+        "topMoleculeID": "id-872",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Label_Bounding_Box",
+        "topics": [],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739812",
+        "ranking": 0,
+        "searchField": "label_bounding_box barboursmith adds labels to show an input geometrie's bounding box ",
+        "owner": "BarbourSmith",
+        "description": "Adds labels to show an input geometrie's bounding Box",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Label_Bounding_Box/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Label_Bounding_Box/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1784185799726
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "mt",
+      "ap1ID": "id-4",
+      "ap2ID": "id-20"
+    },
+    {
+      "ap2Name": "mt",
+      "ap1ID": "id-4",
+      "ap2ID": "id-62"
+    },
+    {
+      "ap2Name": "mt",
+      "ap1ID": "id-4",
+      "ap2ID": "id-77"
+    },
+    {
+      "ap2Name": "mt",
+      "ap1ID": "id-4",
+      "ap2ID": "id-83"
+    },
+    {
+      "ap2Name": "mt",
+      "ap1ID": "id-4",
+      "ap2ID": "id-95"
+    },
+    {
+      "ap2Name": "mt",
+      "ap1ID": "id-4",
+      "ap2ID": "id-107"
+    },
+    {
+      "ap2Name": "mt",
+      "ap1ID": "id-4",
+      "ap2ID": "id-117"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-4",
+      "ap2ID": "id-127"
+    },
+    {
+      "ap2Name": "Material_thickness",
+      "ap1ID": "id-4",
+      "ap2ID": "id-137"
+    },
+    {
+      "ap2Name": "mt",
+      "ap1ID": "id-4",
+      "ap2ID": "id-408"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-7",
+      "ap2ID": "id-10"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-7",
+      "ap2ID": "id-10"
+    },
+    {
+      "ap2Name": "ds",
+      "ap1ID": "id-7",
+      "ap2ID": "id-20"
+    },
+    {
+      "ap2Name": "ds",
+      "ap1ID": "id-7",
+      "ap2ID": "id-62"
+    },
+    {
+      "ap2Name": "ds",
+      "ap1ID": "id-7",
+      "ap2ID": "id-77"
+    },
+    {
+      "ap2Name": "ds",
+      "ap1ID": "id-7",
+      "ap2ID": "id-83"
+    },
+    {
+      "ap2Name": "ds",
+      "ap1ID": "id-7",
+      "ap2ID": "id-95"
+    },
+    {
+      "ap2Name": "ds",
+      "ap1ID": "id-7",
+      "ap2ID": "id-107"
+    },
+    {
+      "ap2Name": "ds",
+      "ap1ID": "id-7",
+      "ap2ID": "id-117"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-7",
+      "ap2ID": "id-123"
+    },
+    {
+      "ap2Name": "Dice_size",
+      "ap1ID": "id-7",
+      "ap2ID": "id-137"
+    },
+    {
+      "ap2Name": "dt",
+      "ap1ID": "id-7",
+      "ap2ID": "id-408"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-10",
+      "ap2ID": "id-14"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-10",
+      "ap2ID": "id-32"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-14",
+      "ap2ID": "id-26"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-14",
+      "ap2ID": "id-32"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-20",
+      "ap2ID": "id-14"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-20",
+      "ap2ID": "id-26"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-20",
+      "ap2ID": "id-38"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-20",
+      "ap2ID": "id-49"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-26",
+      "ap2ID": "id-32"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-32",
+      "ap2ID": "id-38"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-32",
+      "ap2ID": "id-44"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-38",
+      "ap2ID": "id-44"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-38",
+      "ap2ID": "id-49"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-44",
+      "ap2ID": "id-56"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-44",
+      "ap2ID": "id-68"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-49",
+      "ap2ID": "id-44"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-56",
+      "ap2ID": "id-68"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-62",
+      "ap2ID": "id-56"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-68",
+      "ap2ID": "id-99"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-73",
+      "ap2ID": "id-113"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-77",
+      "ap2ID": "id-73"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-77",
+      "ap2ID": "id-95"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-83",
+      "ap2ID": "id-73"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-83",
+      "ap2ID": "id-107"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-95",
+      "ap2ID": "id-99"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-99",
+      "ap2ID": "id-123"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-107",
+      "ap2ID": "id-99"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-113",
+      "ap2ID": "id-133"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-117",
+      "ap2ID": "id-113"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-123",
+      "ap2ID": "id-127"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-127",
+      "ap2ID": "id-133"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-133",
+      "ap2ID": "id-216"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-133",
+      "ap2ID": "id-382"
+    },
+    {
+      "ap2Name": "Shape",
+      "ap1ID": "id-133",
+      "ap2ID": "id-602"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-216",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-408",
+      "ap2ID": "id-402"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-402",
+      "ap2ID": "id-216"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-137",
+      "ap2ID": "id-402"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-137",
+      "ap2ID": "id-414"
+    },
+    {
+      "ap2Name": "Shape",
+      "ap1ID": "id-137",
+      "ap2ID": "id-633"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
+}
