@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "Material_thickness",
-      "ioValue": 3
+      "ioValue": 2
     },
     {
       "name": "Dice_size",
@@ -15,7 +15,12 @@
     },
     {
       "name": "Bit_diameter",
-      "ioValue": 6
+      "ioValue": 6,
+      "currentEquation": "6"
+    },
+    {
+      "name": "Stock_thickness",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -74,7 +79,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 20
+          "ioValue": 19
         },
         {
           "name": "yDist",
@@ -99,7 +104,7 @@
         },
         {
           "name": "mt",
-          "ioValue": 3
+          "ioValue": 2
         }
       ],
       "currentEquation": "ds+mt"
@@ -116,7 +121,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 20
+          "ioValue": 19
         },
         {
           "name": "yDist",
@@ -164,7 +169,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 20
+          "ioValue": 19
         },
         {
           "name": "zDist",
@@ -208,7 +213,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 20
+          "ioValue": 19
         },
         {
           "name": "zDist",
@@ -228,7 +233,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 63
+          "ioValue": 59
         },
         {
           "name": "yDist",
@@ -253,7 +258,7 @@
         },
         {
           "name": "mt",
-          "ioValue": 3
+          "ioValue": 2
         }
       ],
       "currentEquation": "ds*3+mt*3+mt"
@@ -282,11 +287,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 126
+          "ioValue": 118
         },
         {
           "name": "y length",
-          "ioValue": 63
+          "ioValue": 59
         }
       ]
     },
@@ -303,7 +308,7 @@
         },
         {
           "name": "mt",
-          "ioValue": 3
+          "ioValue": 2
         }
       ],
       "currentEquation": "ds*6+mt*8"
@@ -321,7 +326,7 @@
         },
         {
           "name": "mt",
-          "ioValue": 3
+          "ioValue": 2
         }
       ],
       "currentEquation": "ds*3+mt*4"
@@ -335,7 +340,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 126
+          "ioValue": 118
         },
         {
           "name": "ds",
@@ -343,7 +348,7 @@
         },
         {
           "name": "mt",
-          "ioValue": 3
+          "ioValue": 2
         }
       ],
       "currentEquation": "-x/2+ds/2+mt"
@@ -360,11 +365,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": -51.5
+          "ioValue": -48.5
         },
         {
           "name": "yDist",
-          "ioValue": -20
+          "ioValue": -19
         },
         {
           "name": "zDist",
@@ -381,7 +386,7 @@
       "ioValues": [
         {
           "name": "y",
-          "ioValue": 63
+          "ioValue": 59
         },
         {
           "name": "ds",
@@ -389,7 +394,7 @@
         },
         {
           "name": "mt",
-          "ioValue": 3
+          "ioValue": 2
         }
       ],
       "currentEquation": "-y/2+(ds/2+mt)"
@@ -406,7 +411,7 @@
         },
         {
           "name": "height",
-          "ioValue": 11.5
+          "ioValue": 10.5
         }
       ]
     },
@@ -423,7 +428,7 @@
         },
         {
           "name": "mt",
-          "ioValue": 3
+          "ioValue": 2
         }
       ],
       "currentEquation": "ds/2+mt"
@@ -464,7 +469,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 3
+          "ioValue": 2
         }
       ]
     },
@@ -497,10 +502,6 @@
         {
           "name": "Shape 3",
           "ioValue": null
-        },
-        {
-          "name": "Shape 4",
-          "ioValue": null
         }
       ]
     },
@@ -528,7 +529,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 0
+          "ioValue": 10
         },
         {
           "name": "Part Name",
@@ -552,7 +553,7 @@
         },
         {
           "name": "mt",
-          "ioValue": 3
+          "ioValue": 2
         },
         {
           "name": "bd",
@@ -585,7 +586,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 0
+          "ioValue": 10
         },
         {
           "name": "Part Name",
@@ -612,7 +613,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 69
+          "ioValue": 65
         },
         {
           "name": "zDist",
@@ -633,7 +634,7 @@
         },
         {
           "name": "Material_thickness",
-          "ioValue": 3
+          "ioValue": 2
         }
       ],
       "topLevel": false,
@@ -677,7 +678,7 @@
             },
             {
               "name": "mt",
-              "ioValue": 3
+              "ioValue": 2
             }
           ],
           "currentEquation": "ds*6+mt*6"
@@ -695,7 +696,7 @@
             },
             {
               "name": "mt",
-              "ioValue": 3
+              "ioValue": 2
             }
           ],
           "currentEquation": "ds*3+mt*2"
@@ -708,11 +709,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 120
+              "ioValue": 114
             },
             {
               "name": "y length",
-              "ioValue": 57
+              "ioValue": 55
             }
           ]
         },
@@ -724,11 +725,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 126
+              "ioValue": 118
             },
             {
               "name": "y length",
-              "ioValue": 63
+              "ioValue": 59
             }
           ]
         },
@@ -741,11 +742,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 120
+              "ioValue": 114
             },
             {
               "name": "mt",
-              "ioValue": 3
+              "ioValue": 2
             }
           ],
           "currentEquation": "x + mt*2"
@@ -759,11 +760,11 @@
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 57
+              "ioValue": 55
             },
             {
               "name": "mt",
-              "ioValue": 3
+              "ioValue": 2
             }
           ],
           "currentEquation": "y + mt*2"
@@ -810,7 +811,7 @@
             },
             {
               "name": "height",
-              "ioValue": 11.5
+              "ioValue": 10.5
             }
           ]
         },
@@ -827,7 +828,7 @@
             },
             {
               "name": "mt",
-              "ioValue": 3
+              "ioValue": 2
             }
           ],
           "currentEquation": "ds/2+mt"
@@ -892,7 +893,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 11.5
+              "ioValue": 10.5
             }
           ]
         }
@@ -1501,7 +1502,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 0
+          "ioValue": 10
         },
         {
           "name": "Part Name",
@@ -1521,8 +1522,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.8640625,
-      "y": 0.5525672371638142,
+      "x": 0.8130208333333333,
+      "y": 0.5378973105134475,
       "uniqueID": "id-888",
       "name": "Label_Bounding_Box",
       "ioValues": [
@@ -1742,6 +1743,29 @@
       "unitsKey": "Unitless",
       "fileTypeVersion": 1,
       "lastReloadedFromGithubAt": 1784185799726
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8640625,
+      "y": 0.5403422982885085,
+      "uniqueID": "id-929",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0231,
+      "y": 0.39200000000000007,
+      "uniqueID": "id-934",
+      "name": "Stock_thickness"
     }
   ],
   "allConnectors": [
@@ -2026,11 +2050,6 @@
       "ap2ID": "id-602"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-216",
-      "ap2ID": "id-2"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-216",
       "ap2ID": "id-877"
@@ -2039,6 +2058,11 @@
       "ap2Name": "Shape",
       "ap1ID": "id-216",
       "ap2ID": "id-888"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-216",
+      "ap2ID": "id-929"
     },
     {
       "ap2Name": "yDist",
@@ -2086,9 +2110,29 @@
       "ap2ID": "id-877"
     },
     {
-      "ap2Name": "Shape 4",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-888",
-      "ap2ID": "id-216"
+      "ap2ID": "id-929"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-929",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "Cut Through",
+      "ap1ID": "id-934",
+      "ap2ID": "id-877"
+    },
+    {
+      "ap2Name": "Cut Through",
+      "ap1ID": "id-934",
+      "ap2ID": "id-414"
+    },
+    {
+      "ap2Name": "Cut Through",
+      "ap1ID": "id-934",
+      "ap2ID": "id-382"
     }
   ],
   "unitsKey": "MM",
