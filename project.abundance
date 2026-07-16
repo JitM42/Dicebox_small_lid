@@ -20,7 +20,7 @@
     },
     {
       "name": "Stock_thickness",
-      "ioValue": 10
+      "ioValue": 12
     }
   ],
   "topLevel": true,
@@ -530,7 +530,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 10
+          "ioValue": 12
         },
         {
           "name": "Part Name",
@@ -587,7 +587,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 10
+          "ioValue": 12
         },
         {
           "name": "Part Name",
@@ -1503,7 +1503,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 10
+          "ioValue": 12
         },
         {
           "name": "Part Name",
